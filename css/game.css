@@ -1,0 +1,177 @@
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(6,minmax(60px,auto)); 
+    grid-template-rows: repeat(6,minmax(60px,auto));
+    height: 80vh;
+    grid-gap: 0.2vw;
+    grid-template-areas:
+   	 "item-11 item-12 item-13 item-14 item-15 item-16"
+   	 "item-21 item-22 item-23 item-24 item-25 item-26"
+   	 "item-31 item-32 item-33 item-34 item-35 item-36"
+   	 "item-41 item-42 item-43 item-44 item-45 item-46"
+   	 "item-51 item-52 item-53 item-54 item-55 item-56"
+   	 "item-61 item-62 item-63 item-64 item-65 item-66";
+}
+.item-11 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-11;
+}
+.item-12 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-12;
+}
+.item-13 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-13;
+}
+.item-14 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-14;
+}
+.item-15 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-15;
+}
+.item-16 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-16;
+}
+.item-21 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-21;
+}
+.item-22 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-22;
+}
+.item-23 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-23;
+}
+.item-24 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-24;
+}
+.item-25 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-25;
+}
+.item-26 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-26;
+}
+.item-31 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-31;
+}
+.item-32 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-32;
+}
+.item-33 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-33;
+}
+.item-34 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-34;
+}
+.item-35 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-35;
+}
+.item-36 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-36;
+}
+.item-41 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-41;
+}
+.item-42 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-42;
+}
+.item-43 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-43;
+}
+.item-44 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-44;
+}
+.item-45 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-45;
+}
+.item-46 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-46;
+}
+.item-51 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-51;
+}
+.item-52 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-52;
+}
+.item-53 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-53;
+}
+.item-54 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-54;
+}
+.item-55 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-55;
+}
+.item-56 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-56;
+}
+
+.item-61 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-61;
+}
+.item-62 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-62;
+}
+.item-63 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-63;
+}
+.item-64 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-64;
+}
+.item-65 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-65;
+}
+.item-66 {
+    background-color: rgb(231, 121, 18);
+    grid-area: item-66;
+}
+
+.target {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  color: white;
+  font-size: 26pt;
+}
+
+.miss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    font-size: 16pt;
+}

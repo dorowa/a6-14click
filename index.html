@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/game.css">
+
+    <title>A6-14 Тест Кликермана</title>
+
+
+  </head>
+  <body>
+
+    <div class="container" id="main-screen">
+      <h2>Тест Кликермана</h2>
+      <div class="grid-wrapper" id="main-field">
+       <div class="grid-item item-11" id="slot-11"></div>
+       <div class="grid-item item-12" id="slot-12"></div>
+       <div class="grid-item item-13" id="slot-13"></div>
+       <div class="grid-item item-14" id="slot-14"></div>
+       <div class="grid-item item-15" id="slot-15"></div>
+       <div class="grid-item item-16" id="slot-16"></div>
+      
+       <div class="grid-item item-21" id="slot-21"></div>
+       <div class="grid-item item-22" id="slot-22"></div>
+       <div class="grid-item item-23" id="slot-23"></div>
+       <div class="grid-item item-24" id="slot-24"></div>
+       <div class="grid-item item-25" id="slot-25"></div>
+       <div class="grid-item item-26" id="slot-26"></div>
+       
+       <div class="grid-item item-31" id="slot-31"></div>
+       <div class="grid-item item-32" id="slot-32"></div>
+       <div class="grid-item item-33" id="slot-33"></div>
+       <div class="grid-item item-34" id="slot-34"></div>
+       <div class="grid-item item-35" id="slot-35"></div>
+       <div class="grid-item item-36" id="slot-36"></div>
+       
+       <div class="grid-item item-41" id="slot-41"></div>
+       <div class="grid-item item-42" id="slot-42"></div>
+       <div class="grid-item item-43" id="slot-43"></div>
+       <div class="grid-item item-44" id="slot-44"></div>
+       <div class="grid-item item-45" id="slot-45"></div>
+       <div class="grid-item item-46" id="slot-46"></div>
+       
+       <div class="grid-item item-51" id="slot-51"></div>
+       <div class="grid-item item-52" id="slot-52"></div>
+       <div class="grid-item item-53" id="slot-53"></div>
+       <div class="grid-item item-54" id="slot-54"></div>
+       <div class="grid-item item-55" id="slot-55"></div>
+       <div class="grid-item item-56" id="slot-56"></div>
+       
+       <div class="grid-item item-61" id="slot-61"></div>
+       <div class="grid-item item-62" id="slot-62"></div>
+       <div class="grid-item item-63" id="slot-63"></div>
+       <div class="grid-item item-64" id="slot-64"></div>
+       <div class="grid-item item-65" id="slot-65"></div>
+       <div class="grid-item item-66" id="slot-66"></div>
+      
+     </div>
+     <br>
+     <button id="btn-start" class="btn btn-primary">Начать игру</button>
+   </div>
+
+      <div id="win-message" class="d-none">
+        <div class="container">
+        <h2>Вы нашли 10 зелёных квадратов за <span id="total-time-played"></span> секунд</h2>
+        <p>В процессе поиска вы промахнулись на <span id="total-penalties"></span> штрафных</p><br>
+        <p>Итого Вы набрали: <span id="total-scored"></span> очков</p><br>
+        <button id="btn-restart" class="btn btn-primary">Играть заново</button>
+        </div>
+      </div>
+
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/utils.js"></script>
+    <script src="./js/game.js"></script>
+  </body>
+</html>
