@@ -41,7 +41,7 @@ function handleClick(event) {
     hits = hits + 1;
     gameRound();
   }
-  else {
+  else if ($(event.target).hasClass("grid-item")) {
     misses+=penPoint;
     $(event.target).addClass('miss');
     $(event.target).text("-"+Number(misses).toPrecision(2));
